@@ -4,7 +4,7 @@ const getLugar = async(ubicacion) => {
 
 	// Codifico el valor recibido por consola
 	let encodedQuery = encodeURI(ubicacion);
-	let accessKey = 'b484b834ebc638dfddc3545de7ddc126';
+	let accessKey = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx';
 
 	// Creo la instancia para realizar el REQUEST a la API
 	const instancia = axios.create({
